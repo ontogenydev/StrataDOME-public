@@ -12,7 +12,7 @@ StrataDOME is under active implementation. The codebase includes mechanisms for 
 
 ## Validation to date
 
-Focused tests cover attribution, integrity, lifecycle behavior, delivery, persistence and authority checks. Their results establish evidence about the particular behaviors tested. They do not establish successful operation of the complete cross-domain lifecycle.
+Focused tests in the published validation snapshot cover record bindings, Query lifecycle records and delivery-interface contracts. Their results provide evidence for the behaviors and conditions exercised by those tests; they do not establish broader persistence or runtime authority enforcement, or successful operation of the complete cross-domain lifecycle.
 
 The [validation snapshot](validation.md) reports 81 focused tests and 10 specification and traceability checks passed at a dated checkpoint. The summary distinguishes these component results from benchmarks, independent evaluation and complete lifecycle validation.
 
