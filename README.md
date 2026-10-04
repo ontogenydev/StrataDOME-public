@@ -45,4 +45,6 @@ This repository contains public documentation of the architecture, design princi
 
 StrataDOME is developed by [ONTOGENY](https://ontogenyai.com "Open link").
 
-No open-source license is granted by this repository at this time.
+## Rights and permissions
+
+See [COPYRIGHT.md](COPYRIGHT.md) for rights and permissions.
