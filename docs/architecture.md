@@ -1,6 +1,6 @@
 # Architecture overview
 
-StrataDOME is organized around sovereign participants rather than a central data owner.
+StrataDOME is a cross-sovereign epistemic protocol for distributed cognition across autonomous domains. Its architecture assumes that participating systems may differ in authority, ontology, incentives, jurisdiction, and technical substrate.
 
 ## Sovereign domains
 

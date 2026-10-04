@@ -4,9 +4,9 @@
 
 **Strategic Distributed Operational Mapping & Epistemics**
 
-StrataDOME is a distributed epistemic system for coordination across institutions that cannot simply pool their data, authority, or internal systems.
+StrataDOME is a cross-sovereign epistemic protocol for distributed cognition across autonomous domains—forming bounded shared understanding without collapsing local authority, provenance, or decision rights.
 
-It is designed to let independently controlled domains exchange bounded Signals and Queries while preserving provenance, source authority, uncertainty, disclosure constraints, and local sovereignty.
+It is built for institutions, infrastructures, jurisdictions, and other autonomous systems that need to reason together without becoming one system.
 
 ## Start here
 
@@ -17,11 +17,11 @@ It is designed to let independently controlled domains exchange bounded Signals 
 
 ## Why StrataDOME
 
-Interoperability is usually achieved by reducing institutional difference until separate systems can behave as one. Information is moved into a shared environment, unlike internal models are made compatible, and the infrastructure doing that work gradually becomes the place where access and meaning are decided. StrataDOME is built for the cases where that consolidation is unacceptable.
+Different institutions do not just hold different data. They operate under different authorities, vocabularies, incentives, jurisdictions, and technical constraints. StrataDOME treats those differences as durable features of the environment rather than temporary incompatibilities to be normalized away.
 
-An institution should be able to contribute to shared cognition without surrendering custody of sensitive source material, its own interpretation of that material, or control over how its information is used. StrataDOME therefore treats institutional boundaries as part of the architecture rather than as friction to be engineered away.
+A participating domain can make part of what it knows legible to others without surrendering the source material behind it, its own interpretation, or control over what happens next. Other domains remain free to qualify, reject, withhold, or reinterpret what they receive. Shared understanding can grow without requiring shared custody or a shared chain of command.
 
-The system has to preserve more than the information itself. It also has to preserve where that information came from, how much confidence can reasonably be placed in it, who may receive it, and what conditions still apply after it has been transformed or combined with other material. Those conditions remain active as the information moves through the system.
+The protocol therefore carries the conditions that make an exchange meaningful: where information came from, what remains uncertain or disputed, what context it belongs to, and what limits still apply as it moves or is transformed. More connectivity can produce more shared cognition; it does not create new jurisdiction.
 
 ## Current status
 
