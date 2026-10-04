@@ -29,3 +29,17 @@ Provenance connects contributions and derived claims to their sources, transform
 ## Interferometric cognition
 
 Interferometric cognition examines agreement, disagreement and dependence among partial views. Agreement must be assessed against shared sources and derivations before it can count as independent corroboration. Disagreement may reveal incompatible assumptions, differences in context or unresolved uncertainty. These relationships support higher-order hypotheses and generate further Queries, creating a recursive process of observation, comparison, inference and inquiry.
+
+## Scope of the inference description
+
+At the level described here, interferometry takes permitted contributions together with their attribution, context, uncertainty and available derivation relationships. It evaluates how those contributions support or conflict with an interpretation, whether apparent corroboration has a shared basis, and which unresolved question would distinguish the remaining interpretations. The intended outputs are supportable hypotheses, explicit unresolved differences and further Queries. The term names this relational reasoning process; it does not by itself identify a particular estimator or mathematical operator.
+
+For example, two organizations repeating one sensor report provide two accounts but not necessarily two independent observations. A separately obtained observation may add corroboration, while a conflicting observation may require checking time, scope or interpretation. This is an illustration of the intended reasoning, not a measured result or an executable algorithm. The public documentation does not specify scoring functions, dependence thresholds or confidence calibration sufficient to reproduce that computation.
+
+Recorded provenance can expose known shared ancestry. Undisclosed copying, common hidden sources and coordinated false claims are a separate detection problem. Absence of a recorded relationship does not establish independence, and no general capability to discover hidden dependence is demonstrated by the published validation.
+
+## Participation and disagreement
+
+Participating domains retain authority over release and acceptance, while Field constitution requires an evidential and contextual basis. A Field provides a shared setting for assessing contributions without acquiring authority over its contributors. Admission, challenges to evidence and disputes about Field constitution require rules appropriate to that setting; the public account does not yet provide a complete operational procedure for these decisions.
+
+Refusal to contribute remains distinct from evidence against a claim. The intended benefit of participation is access to a broader evidential context under bounded disclosure. Whether that benefit is sufficient to support sustained participation, and how conflicting incentives are addressed, remain questions for deployment and evaluation.

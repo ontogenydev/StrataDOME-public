@@ -33,3 +33,7 @@ Fields are constituted through justified relationships among attributable contri
 ## 8. Recursive, noncommanding inquiry
 
 An unresolved relationship can generate a Query directed toward information capable of discriminating between interpretations. A Query expresses an epistemic need; the recipient retains control over its response and disclosure. Responses return to evaluation, where they may strengthen, revise or defeat a hypothesis. This recursive movement between observation, inference and inquiry allows shared understanding to develop without converting the lattice into a chain of command.
+
+## Assurance boundary
+
+These principles describe design obligations. Their implementation and assurance depend on the enforcing systems and the evidence available in each setting. [Implementation status](implementation-status.md) and [validation evidence](validation.md) distinguish implemented components from outstanding validation; the [technical overview](technical-overview.md) explains the trust and disclosure boundaries.

@@ -46,4 +46,7 @@ python -B -m pytest -q -p no:cacheprovider \
 
 ## Outstanding validation
 
-A successful complete cross-domain run has not yet been verified. End-to-end repeatability and full conformance remain outstanding. This snapshot makes no claim of production readiness or operational deployment.
+A successful complete cross-domain run has not yet been verified. End-to-end repeatability and full conformance remain outstanding. The published record does not include a performance benchmark, independent evaluation, or measured assessment of inference accuracy, uncertainty calibration, cumulative leakage or resistance to collusion and poisoning. The reported 17.22 seconds is the duration of the selected test run, not a throughput or latency benchmark.
+
+The implementation and selected tests are not available in this public repository, so this snapshot is project-reported evidence that public readers cannot independently reproduce from the materials here. This snapshot makes no claim of production readiness or operational deployment.
+

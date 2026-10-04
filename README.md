@@ -24,7 +24,7 @@ This process is recursive. Unresolved relationships generate Queries seeking inf
 
 ## Computational sovereignty
 
-Each domain retains control over its protected source state and the conditions of its participation. Contributions and derived claims remain subject to their provenance, interpretive context, uncertainty and applicable restrictions. Transformation does not itself authorize broader disclosure or use.
+The design preserves each domain’s authority over its protected source state and the conditions of its participation. Contributions and derived claims remain subject to their provenance, interpretive context, uncertainty and applicable restrictions. Transformation does not itself authorize broader disclosure or use. The [technical overview](docs/technical-overview.md) describes the enforcement boundary and current assurance limits.
 
 Release, acceptance and action are distinct decisions. Evidence may justify a conclusion without conferring authority to act upon it. The lattice’s capacity to relate information across domains therefore carries no inherent jurisdiction over its participants.
 
@@ -32,13 +32,16 @@ Release, acceptance and action are distinct decisions. Evidence may justify a co
 
 Core protocol mechanisms have been implemented for controlled exchange and traceable derivation under source-defined constraints. Integration and validation remain in progress. A successful complete cross-domain lifecycle has not yet been verified, and full conformance remains outstanding. No production readiness or operational deployment is claimed.
 
-This repository contains public documentation of the architecture, design principles and development status. The implementation is maintained separately in a private repository.
+The published [validation snapshot](docs/validation.md) reports 81 focused tests and 10 specification and traceability checks passed. Their scope and remaining evaluation requirements are described with the results.
+
+This repository contains public documentation of the architecture, design principles and development status. The implementation is maintained separately in a private repository. The public material provides an architectural account rather than a complete implementable protocol specification.
 
 ## Documentation
 
 - [Architecture overview](https://github.com/ontogenydev/StrataDOME-public/blob/main/docs/architecture.md "Open link"): principal components and their relationships
 - [Design principles](https://github.com/ontogenydev/StrataDOME-public/blob/main/docs/principles.md "Open link"): constraints governing participation, inference and authority
 - [Implementation status](https://github.com/ontogenydev/StrataDOME-public/blob/main/docs/implementation-status.md "Open link"): implemented capabilities and outstanding validation
+- [Validation evidence](docs/validation.md): dated test results, their scope and outstanding evaluation
 - [Technical overview](https://github.com/ontogenydev/StrataDOME-public/blob/main/docs/technical-overview.md "Open link"): further technical description
 
 ## ONTOGENY
@@ -48,3 +51,4 @@ StrataDOME is developed by [ONTOGENY](https://ontogenyai.com "Open link").
 ## Rights and permissions
 
 See [COPYRIGHT.md](COPYRIGHT.md) for rights and permissions.
+
