@@ -6,7 +6,7 @@
 
 StrataDOME is a cross-sovereign epistemic protocol for distributed cognition across autonomous domains—forming bounded shared understanding without collapsing local authority, provenance, or decision rights.
 
-It is built for institutions, infrastructures, jurisdictions, and other autonomous systems that need to reason together without becoming one system.
+It is built for autonomous systems that need to reason together without becoming one system. A participating domain could be an institution. It could also be an infrastructure operator or a jurisdiction in its own right.
 
 ## Start here
 
@@ -17,15 +17,15 @@ It is built for institutions, infrastructures, jurisdictions, and other autonomo
 
 ## Why StrataDOME
 
-Different institutions do not just hold different data. They operate under different authorities, vocabularies, incentives, jurisdictions, and technical constraints. StrataDOME treats those differences as durable features of the environment rather than temporary incompatibilities to be normalized away.
+Different institutions do not just hold different data. Their authority may differ, and they may not even describe the same situation in the same terms. They can also be answerable to different jurisdictions or constrained by very different technical systems. StrataDOME treats that divergence as part of the environment rather than something to erase.
 
-A participating domain can make part of what it knows legible to others without surrendering the source material behind it, its own interpretation, or control over what happens next. Other domains remain free to qualify, reject, withhold, or reinterpret what they receive. Shared understanding can grow without requiring shared custody or a shared chain of command.
+A participating domain can make part of what it knows legible to others without handing over the source material or surrendering control of its interpretation. It still decides what to expose. The receiving side still decides what to accept. Shared understanding can grow without shared custody or a shared chain of command.
 
-The protocol therefore carries the conditions that make an exchange meaningful: where information came from, what remains uncertain or disputed, what context it belongs to, and what limits still apply as it moves or is transformed. More connectivity can produce more shared cognition; it does not create new jurisdiction.
+The protocol keeps the terms of an exchange attached to the information itself. Origin remains visible. Uncertainty and disagreement remain visible. Context and use limits survive transformation. More connectivity can produce more shared cognition; it does not create new jurisdiction.
 
 ## Current status
 
-StrataDOME is under active implementation. Core architecture, provenance, bounded Query lifecycle semantics, persistence, transport, and sovereignty checks exist in the canonical development repository. The complete cross-node lifecycle has not yet been demonstrated successfully as one verified end-to-end path.
+StrataDOME is under active implementation. The canonical development repository now contains working code for the provenance model and bounded Query lifecycle. Persistence and transport are implemented alongside the checks that preserve source sovereignty. The complete cross-node lifecycle has not yet been demonstrated successfully as one verified end-to-end path.
 
 This public repository is a curated technical overview. It intentionally does not mirror the private canonical engineering repository or expose internal development records.
 

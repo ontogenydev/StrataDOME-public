@@ -2,11 +2,11 @@
 
 ## Runtime
 
-The reference implementation is a Python system divided into explicit implementation units for protocol, provenance, semantic ports, domain semantics, sovereignty, constitution, epistemics, Fields, Queries, effects, adapters, runtime composition, and conformance evidence.
+The reference implementation is a Python system with explicit package boundaries. Protocol and provenance sit inside the semantic core; infrastructure adapters point inward toward those contracts; runtime composition remains separate from both. This keeps implementation technology from becoming semantic authority.
 
 ## Persistence
 
-Local persistence uses bounded SQLite adapters with separate responsibilities for sender state, receiver state, delivery attempts, and durable receipts. Persistence adapters do not own semantic authority.
+Local persistence uses bounded SQLite adapters. Sender-side state is kept separate from the receiver's durable record, and delivery attempts are tracked independently of both. Persistence adapters do not own semantic authority.
 
 ## Transport
 
@@ -14,12 +14,12 @@ Current integration work uses authenticated IPv4 loopback HTTP as a deliberately
 
 ## Authority checks
 
-Protected operations are checked against the exact object, recipient, context, purpose, scope, currentness, onward-use conditions, derivation limits, and source-local constraints applicable to that operation.
+Before a protected operation proceeds, the runtime rechecks that the exact use being attempted is still permitted in its current context. A prior permission does not become a standing entitlement. Transforming the material does not automatically broaden what may be done with it.
 
 ## Query lifecycle
 
-A Query is formed from a qualified epistemic gap, persistently registered, delivered under current authority, durably acknowledged by the receiving side, and later confirmed into shared epistemic state. These phases remain independently verifiable and resumable rather than being treated as one opaque transaction.
+A Query begins as an unresolved gap in shared understanding. It is registered before delivery and must be durably acknowledged by the receiving side before it can contribute to later shared state. Each stage can be verified and resumed independently rather than disappearing inside one opaque transaction.
 
 ## Evidence discipline
 
-Runtime evidence is retained as evidence of exactly what occurred. A transport event is not promoted into a durable receipt; a durable receipt is not promoted into operational acceptance; and partial integration results are not represented as completed end-to-end behavior.
+Runtime evidence is kept at the level it actually proves. Successful transport proves only transport. A persisted receipt proves receipt, not acceptance or completion. Partial integration results stay partial.
