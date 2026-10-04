@@ -17,11 +17,17 @@ It is built for autonomous systems that need to reason together without becoming
 
 ## Why StrataDOME
 
-Different institutions do not just hold different data. Their authority may differ, and they may not even describe the same situation in the same terms. They can also be answerable to different jurisdictions or constrained by very different technical systems. StrataDOME treats that divergence as part of the environment rather than something to erase.
+Operational events cross institutional boundaries. Evidence about them remains distributed across sensors, organizations and human accounts, each with a partial view and its own interpretive context.
 
-A participating domain can make part of what it knows legible to others without handing over the source material or surrendering control of its interpretation. It still decides what to expose. The receiving side still decides what to accept. Shared understanding can grow without shared custody or a shared chain of command.
+Relationships between these observations can reveal dependencies, contradictions and emerging conditions that no participating domain can establish independently. StrataDOME is designed to make those relationships computationally available without requiring a single custodian of the underlying information.
 
-The protocol keeps the terms of an exchange attached to the information itself. Origin remains visible. Uncertainty and disagreement remain visible. Context and use limits survive transformation. More connectivity can produce more shared cognition; it does not create new jurisdiction.
+Its central mechanism is cross-domain interferometry: comparing selectively shared epistemic representations for agreement, divergence and unresolved relationships. Corroboration can strengthen a hypothesis; disagreement can expose incompatible assumptions, missing context or a need for further observation.
+
+These relations support higher-order inference across the lattice. The process is recursive: broader hypotheses generate targeted queries back into participating domains, whose responses constrain, revise or reject them. The architecture connects local observation, cross-domain inference and directed inquiry across multiple scales.
+
+Computational sovereignty defines the conditions under which this process can occur. Each domain controls its contributions and the terms under which they may be used. Provenance, context, uncertainty and applicable restrictions constrain subsequent interpretation and derivation.
+
+Preserving distinct epistemic positions gives the lattice something substantive to compare, while explicit authority boundaries govern what it may do with the result. The objective is distributed situational understanding that can develop across institutions while remaining accountable to its sources and their limits.
 
 ## Current status
 
