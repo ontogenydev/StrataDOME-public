@@ -17,9 +17,11 @@ It is designed to let independently controlled domains exchange bounded Signals 
 
 ## Why StrataDOME
 
-Most interoperability systems assume that participating organizations can centralize data, normalize it into one ontology, or delegate decision authority to a shared platform. StrataDOME is built around the opposite premise: institutions may need to collaborate while retaining independent control over protected source state, local interpretation, and operational consequence.
+Interoperability is usually achieved by reducing institutional difference until separate systems can behave as one. Information is moved into a shared environment, unlike internal models are made compatible, and the infrastructure doing that work gradually becomes the place where access and meaning are decided. StrataDOME is built for the cases where that consolidation is unacceptable.
 
-The system therefore treats provenance, uncertainty, source release, recipient acceptance, and downstream use restrictions as first-class parts of the computation rather than metadata added after the fact.
+An institution should be able to contribute to shared cognition without surrendering custody of sensitive source material, its own interpretation of that material, or control over how its information is used. StrataDOME therefore treats institutional boundaries as part of the architecture rather than as friction to be engineered away.
+
+The system has to preserve more than the information itself. It also has to preserve where that information came from, how much confidence can reasonably be placed in it, who may receive it, and what conditions still apply after it has been transformed or combined with other material. Those conditions remain active as the information moves through the system.
 
 ## Current status
 
