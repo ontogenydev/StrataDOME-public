@@ -1,0 +1,41 @@
+StrataDOME validation snapshot
+Date: 2026-10-03
+Timezone: UTC-05:00
+Implementation commit: 19f318597337864c805a949287e5ba11485ed13a
+Working tree: clean at validation start and after the focused run
+Host environment: Microsoft Windows NT 10.0.26200.0
+Python: 3.14.6
+pytest package version: not separately recorded
+
+COMMAND
+python -B -m tools.spec_check --root .
+
+RESULT
+StrataDOME specification/traceability validation: PASS
+Checks: 10/10 passed | errors=0 warnings=0 notices=1
+[PASS] MANIFEST
+[PASS] AUTHORITY
+[PASS] INTEGRITY
+NOTICE INTEGRITY.PACKAGE_NONRESIDENT:
+The issued extraction-package archive is not repository-resident; its registered
+package digest is not represented as a reverified resident-artifact hash.
+[PASS] CLAUSES
+[PASS] INVARIANTS
+[PASS] ADRS
+[PASS] TESTS
+[PASS] TOPOLOGY
+[PASS] TRACEABILITY
+[PASS] PHASE
+
+COMMAND
+python -B -m pytest -q -p no:cacheprovider tests/implementation/test_query_record_bindings.py tests/implementation/test_query_cycle_records.py tests/implementation/test_query_delivery_ports.py
+
+RESULT
+........................................................................ [ 88%]
+.........                                                                [100%]
+81 passed in 17.22s
+
+SCOPE NOTE
+The focused test result applies only to the selected test files above. It does not
+establish successful operation of the complete cross-domain lifecycle, full
+conformance, production readiness or operational deployment.
