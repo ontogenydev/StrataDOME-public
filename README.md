@@ -2,41 +2,47 @@
   <img src="assets/stratadome-banner.png" alt="StrataDOME" width="100%">
 </p>
 
+# StrataDOME
+
 **Strategic Distributed Operational Mapping & Epistemics**
 
-StrataDOME is a cross-sovereign epistemic protocol for distributed cognition across autonomous domains—forming bounded shared understanding without collapsing local authority, provenance, or decision rights.
+StrataDOME is a cross-sovereign epistemic protocol under development by ONTOGENY. It is designed to support distributed cognition across autonomous institutional and technical domains, enabling cross-domain inference under explicit constraints on disclosure, derivation and authority.
 
-It is built for autonomous systems that need to reason together without becoming one system. A participating domain could be an institution. It could also be an infrastructure operator or a jurisdiction in its own right.
+## Purpose
 
-## Start here
+Operational conditions extend across institutional boundaries, while the evidence required to understand them remains distributed among organizations, infrastructure operators, sensors and human participants. Each observes a partial situation through its own methods, responsibilities and interpretive context. Dependencies and emerging conditions may become apparent only through relationships among these separate observations.
 
-- [Architecture overview](docs/architecture.md)
-- [Design principles](docs/principles.md)
-- [Implementation status](docs/implementation-status.md)
-- [Technical overview](docs/technical-overview.md)
+StrataDOME addresses the computational problem of reasoning across those relationships while retaining the provenance, uncertainty and authority constraints of the contributing domains. Its objective is shared situational understanding that can develop across institutions without requiring centralized custody of their protected source material or consolidation of their decision rights.
 
-## Why StrataDOME
+## Architectural approach
 
-Operational events cross institutional boundaries. Evidence about them remains distributed across sensors, organizations and human accounts, each with a partial view and its own interpretive context.
+The architecture organizes attributable contributions into shared epistemic contexts called Fields. Relationships among Fields and participating domains form a lattice through which local observations can support broader inference and broader hypotheses can direct further inquiry.
 
-Relationships between these observations can reveal dependencies, contradictions and emerging conditions that no participating domain can establish independently. StrataDOME is designed to make those relationships computationally available without requiring a single custodian of the underlying information.
+The central mechanism is cross-domain interferometry: the evaluation of agreement, divergence and dependence among selectively shared epistemic representations. Corroboration may strengthen an inference; contradiction may expose incompatible assumptions or missing context. Dependence must also be examined, since accounts derived from a common source cannot automatically be treated as independent evidence.
 
-Its central mechanism is cross-domain interferometry: comparing selectively shared epistemic representations for agreement, divergence and unresolved relationships. Corroboration can strengthen a hypothesis; disagreement can expose incompatible assumptions, missing context or a need for further observation.
+This process is recursive. Unresolved relationships generate Queries seeking information capable of distinguishing between interpretations. Participating domains evaluate those requests under their own authority and disclosure conditions. Their responses return to the reasoning process, where they may support, revise or invalidate a hypothesis.
 
-These relations support higher-order inference across the lattice. The process is recursive: broader hypotheses generate targeted queries back into participating domains, whose responses constrain, revise or reject them. The architecture connects local observation, cross-domain inference and directed inquiry across multiple scales.
+## Computational sovereignty
 
-Computational sovereignty defines the conditions under which this process can occur. Each domain controls its contributions and the terms under which they may be used. Provenance, context, uncertainty and applicable restrictions constrain subsequent interpretation and derivation.
+Each domain retains control over its protected source state and the conditions of its participation. Contributions and derived claims remain subject to their provenance, interpretive context, uncertainty and applicable restrictions. Transformation does not itself authorize broader disclosure or use.
 
-Preserving distinct epistemic positions gives the lattice something substantive to compare, while explicit authority boundaries govern what it may do with the result. The objective is distributed situational understanding that can develop across institutions while remaining accountable to its sources and their limits.
+Release, acceptance and action are distinct decisions. Evidence may justify a conclusion without conferring authority to act upon it. The lattice’s capacity to relate information across domains therefore carries no inherent jurisdiction over its participants.
 
-## Current status
+## Development status
 
-StrataDOME is under active development, with core protocol mechanisms implemented for controlled exchange between participating domains and traceable derivation of information under source-defined constraints. Validation of the complete cross-domain lifecycle remains in progress; a successful end-to-end run has not yet been verified.
+Core protocol mechanisms have been implemented for controlled exchange and traceable derivation under source-defined constraints. Integration and validation remain in progress. A successful complete cross-domain lifecycle has not yet been verified, and full conformance remains outstanding. No production readiness or operational deployment is claimed.
 
-This repository presents the system’s architecture, technical rationale and development status. The implementation is maintained separately in a private repository.
+This repository contains public documentation of the architecture, design principles and development status. The implementation is maintained separately in a private repository.
 
-## Ontogeny
+## Documentation
 
-StrataDOME is developed by ONTOGENY.
+- [Architecture overview](https://github.com/ontogenydev/StrataDOME-public/blob/main/docs/architecture.md "Open link"): principal components and their relationships
+- [Design principles](https://github.com/ontogenydev/StrataDOME-public/blob/main/docs/principles.md "Open link"): constraints governing participation, inference and authority
+- [Implementation status](https://github.com/ontogenydev/StrataDOME-public/blob/main/docs/implementation-status.md "Open link"): implemented capabilities and outstanding validation
+- [Technical overview](https://github.com/ontogenydev/StrataDOME-public/blob/main/docs/technical-overview.md "Open link"): further technical description
+
+## ONTOGENY
+
+StrataDOME is developed by [ONTOGENY](https://ontogenyai.com "Open link").
 
 No open-source license is granted by this repository at this time.
