@@ -31,9 +31,9 @@ Preserving distinct epistemic positions gives the lattice something substantive 
 
 ## Current status
 
-StrataDOME is under active implementation. The canonical development repository now contains working code for the provenance model and bounded Query lifecycle. Persistence and transport are implemented alongside the checks that preserve source sovereignty. The complete cross-node lifecycle has not yet been demonstrated successfully as one verified end-to-end path.
+StrataDOME is under active development, with core protocol mechanisms implemented for controlled exchange between participating domains and traceable derivation of information under source-defined constraints. Validation of the complete cross-domain lifecycle remains in progress; a successful end-to-end run has not yet been verified.
 
-This public repository is a curated technical overview. It intentionally does not mirror the private canonical engineering repository or expose internal development records.
+This repository presents the system’s architecture, technical rationale and development status. The implementation is maintained separately in a private repository.
 
 ## Ontogeny
 
