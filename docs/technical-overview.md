@@ -46,4 +46,5 @@ StrataDOME’s stated focus is the combination of attributable inference, persis
 
 ## Public specification boundary
 
-The descriptions here explain roles, relationships and selected implementation behavior. Normative record schemas, complete state-transition rules and a reproducible definition of the inference procedure are not published in this repository. It is therefore not currently sufficient to build an independently interoperable implementation or verify full conformance from public materials alone. Published test summaries provide bounded evidence, not a substitute for those artifacts.
+The descriptions here explain roles, relationships and selected implementation behavior. Normative record schemas, complete state-transition rules and a reproducible definition of the inference procedure are not published in this repository. It is therefore not currently sufficient to build an  
+interoperable implementation or verify full conformance from public materials alone. Published test summaries provide bounded evidence, not a substitute for those artifacts.
